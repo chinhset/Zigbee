@@ -1,0 +1,210 @@
+// *****************************************************************************
+//                                                                              
+//  Software License Agreement                                                  
+//                                                                              
+//  Copyright (c) 2004-2008 Microchip Technology Inc.                           
+//  All rights reserved.                                                        
+//                                                                              
+//  Microchip licenses to you the right to use, copy and distribute Software    
+//  only when embedded on a Microchip microcontroller or digital signal         
+//  controller and used with a Microchip radio frequency transceiver, which     
+//  are integrated into your product or third party product (pursuant to the    
+//  sublicense terms in the accompanying license agreement).  You may NOT       
+//  modify or create derivative works of the Software.                          
+//                                                                              
+//  If you intend to use this Software in the development of a product for      
+//  sale, you must be a member of the ZigBee Alliance.  For more                
+//  information, go to www.zigbee.org.                                          
+//                                                                              
+//  You should refer to the license agreement accompanying this Software for    
+//  additional information regarding your rights and obligations.               
+//                                                                              
+//  SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY     
+//  KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY          
+//  WARRANTY OF MERCHANTABILITY, TITLE, NON-INFRINGEMENT AND FITNESS FOR A      
+//  PARTICULAR PURPOSE. IN NO EVENT SHALL MICROCHIP OR ITS LICENSORS BE         
+//  LIABLE OR OBLIGATED UNDER CONTRACT, NEGLIGENCE, STRICT LIABILITY,           
+//  CONTRIBUTION, BREACH OF WARRANTY, OR OTHER LEGAL EQUITABLE THEORY ANY       
+//  DIRECT OR INDIRECT DAMAGES OR EXPENSES INCLUDING BUT NOT LIMITED TO ANY     
+//  INCIDENTAL, SPECIAL, INDIRECT, PUNITIVE OR CONSEQUENTIAL DAMAGES, LOST      
+//  PROFITS OR LOST DATA, COST OF PROCUREMENT OF SUBSTITUTE GOODS,              
+//  TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES (INCLUDING BUT NOT     
+//  LIMITED TO ANY DEFENSE THEREOF), OR OTHER SIMILAR COSTS.                    
+//                                                                              
+//  8/20/08                                                                     
+//                                                                              
+// *****************************************************************************
+
+// Created by ZENA(TM) Version 3.0.0.0, 8/31/2017, 11:08:04
+
+// This definition file was created for use with the following:
+//     Protocol:            ZigBee 2006 
+//     Processor:           PIC24/dsPIC
+//     Transceiver:         Microchip MRF24J40
+//     ZigBee Device:       Coordinator
+//     Nonvolatile Storage: 25LC256
+
+// ***** Any changes should be made by regenerating the file with ZENA(TM) *****
+
+#ifndef _ZIGBEE_DEF
+#define _ZIGBEE_DEF
+
+
+// PIC Information
+
+#define CLOCK_FREQ 16000000ul
+#define BAUD_RATE 19200ul
+#define MAX_HEAP_SIZE 2048
+
+// SPI and Non-volatile Storage Information
+
+#define USE_EXTERNAL_NVM
+#define EXTERNAL_NVM_BYTES 32768
+#define EEPROM_PAGE_SIZE 64
+#define EEPROM_nCS LATDbits.LATD12
+#define EEPROM_nCS_TRIS TRISDbits.TRISD12
+// RF is on SPI1, EE is on SPI2
+#define RF_SSPIF_BIT  IFS0bits.SPI1IF
+#define RF_SSPBUF_REG SPI1BUF
+#define EE_SSPIF_BIT  IFS2bits.SPI2IF
+#define EE_SSPBUF_REG SPI2BUF
+
+// Device MAC Address
+
+#define MAC_LONG_ADDR_BYTE7 0x00
+#define MAC_LONG_ADDR_BYTE6 0x00
+#define MAC_LONG_ADDR_BYTE5 0x00
+#define MAC_LONG_ADDR_BYTE4 0x00
+#define MAC_LONG_ADDR_BYTE3 0x00
+#define MAC_LONG_ADDR_BYTE2 0x00
+#define MAC_LONG_ADDR_BYTE1 0x00
+#define MAC_LONG_ADDR_BYTE0 0x00
+
+// ZigBee Device Information
+
+#define I_AM_COORDINATOR
+#define I_AM_FFD
+#define I_SUPPORT_ROUTING
+#define MY_CAPABILITY_INFO 0xCE
+
+// Security Configuration
+
+#define I_SUPPORT_RES_SECURITY
+#define SECURITY_COUNTER_LOCATION 0x2ba5b800
+
+// Trust Center Address
+
+#define TRUST_CENTER_LONG_ADDR_BYTE7 0xaa
+#define TRUST_CENTER_LONG_ADDR_BYTE6 0xaa
+#define TRUST_CENTER_LONG_ADDR_BYTE5 0xaa
+#define TRUST_CENTER_LONG_ADDR_BYTE4 0xaa
+#define TRUST_CENTER_LONG_ADDR_BYTE3 0xaa
+#define TRUST_CENTER_LONG_ADDR_BYTE2 0xaa
+#define TRUST_CENTER_LONG_ADDR_BYTE1 0xaa
+#define TRUST_CENTER_LONG_ADDR_BYTE0 0xaa
+
+// Network Key
+
+#define NETWORK_KEY_BYTE15 0xaa
+#define NETWORK_KEY_BYTE14 0xaa
+#define NETWORK_KEY_BYTE13 0xaa
+#define NETWORK_KEY_BYTE12 0xaa
+#define NETWORK_KEY_BYTE11 0xaa
+#define NETWORK_KEY_BYTE10 0xaa
+#define NETWORK_KEY_BYTE09 0xaa
+#define NETWORK_KEY_BYTE08 0xaa
+#define NETWORK_KEY_BYTE07 0xbb
+#define NETWORK_KEY_BYTE06 0xbb
+#define NETWORK_KEY_BYTE05 0xbb
+#define NETWORK_KEY_BYTE04 0xbb
+#define NETWORK_KEY_BYTE03 0xbb
+#define NETWORK_KEY_BYTE02 0xbb
+#define NETWORK_KEY_BYTE01 0xbb
+#define NETWORK_KEY_BYTE00 0xbb
+
+#define NETWORK_KEY_SEQ 0x00
+
+// External Encryption Key - for internal use only
+
+#define NVM_KEY_BYTE15 0x65
+#define NVM_KEY_BYTE14 0x9C
+#define NVM_KEY_BYTE13 0xFA
+#define NVM_KEY_BYTE12 0xB8
+#define NVM_KEY_BYTE11 0x38
+#define NVM_KEY_BYTE10 0xA3
+#define NVM_KEY_BYTE09 0x6C
+#define NVM_KEY_BYTE08 0x9E
+#define NVM_KEY_BYTE07 0x86
+#define NVM_KEY_BYTE06 0x7D
+#define NVM_KEY_BYTE05 0x99
+#define NVM_KEY_BYTE04 0x6C
+#define NVM_KEY_BYTE03 0xA8
+#define NVM_KEY_BYTE02 0x74
+#define NVM_KEY_BYTE01 0x53
+#define NVM_KEY_BYTE00 0x8B
+
+// ZDO Configuration
+
+#define SUPPORT_END_DEVICE_BINDING
+#define CONFIG_ENDDEV_BIND_TIMEOUT (ONE_SECOND * 5)
+
+// APS Configuration
+
+#define MAX_APL_FRAMES 9
+#define MAX_APS_ACK_FRAMES 8
+#define MAX_APS_ADDRESSES 8
+#define I_SUPPORT_BINDINGS
+#define NUM_BUFFERED_INDIRECT_MESSAGES 8
+#define MAX_BINDINGS 15
+#define MAX_DUPLICATE_TABLE 21
+#define DUPLICATE_TABLE_EXPIRATION 5
+#define I_SUPPORT_GROUP_ADDRESSING
+#define MAX_GROUP 8
+#define MAX_GROUP_END_POINT 8
+#define MAX_GROUP_RECORD_BUFFER 5
+
+// NWK Configuration
+
+#define MAX_NEIGHBORS 24
+#define NUM_BUFFERED_BROADCAST_MESSAGES 0
+#define ROUTE_DISCOVERY_TABLE_SIZE 4
+#define ROUTING_TABLE_SIZE 16
+#define RESERVED_ROUTING_TABLE_ENTRIES 8
+#define NUM_BUFFERED_ROUTING_MESSAGES 8
+
+// MAC Configuration
+
+#define MAX_ENERGY_THRESHOLD 112
+#define MAC_PIB_macTransactionPersistenceTime 479999    // 7.68 seconds
+#define RX_BUFFER_SIZE 256
+#define RX_BUFFER_LOCATION 0x0
+#define MAC_PIB_macBeaconOrder 15
+#define MAC_PIB_macSuperframeOrder 15
+#define MAC_PIB_macBattLifeExt FALSE
+
+// Transceiver Information
+
+#define RF_CHIP MRF24J40
+#define MAC_PIB_macAckWaitDuration (54+3)
+#define RF_INT_PIN PORTEbits.RE8
+#define RFIF IFS1bits.INT1IF
+#define RFIE IEC1bits.INT1IE
+#define PHY_CS LATBbits.LATB2
+#define PHY_CS_TRIS TRISBbits.TRISB2
+#define PHY_RESETn LATGbits.LATG2
+#define PHY_RESETn_TRIS TRISGbits.TRISG2
+#define PHY_WAKE LATGbits.LATG3
+#define PHY_WAKE_TRIS TRISGbits.TRISG3
+#define PA_LEVEL 0x00  // -0.00 dBm
+#define FREQUENCY_BAND FB_2400GHz
+#define ALLOWED_CHANNELS 0x07fff800
+
+// Profile and Endpoint Configuration
+
+#define NUM_USER_ENDPOINTS 1
+#define Dst_Endpoint 240
+#define MY_MAX_INPUT_CLUSTERS 1
+#define MY_MAX_OUTPUT_CLUSTERS 1
+#include "..\ZigBeeStack\zTest.h"
+
+#endif

@@ -1,0 +1,312 @@
+
+Console Init
+Harware Init
+Zigbee Init
+*************************************
+Router - R&D by WSAN-Lab411
+Transceiver-MRF24J40
+
+
+Trying to join network as a new device!
+Error finding network: EA. Trying again!
+Trying to join network as a new device!
+Error finding network: EA. Trying again!
+Trying to join network as a new device!
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 19
+SuperframeSpec: CFFF
+LinkQuality: FF
+TimeStamp: 00029D37
+ACLEntry: 08
+Scan Confirm Result(Active Scan): 
+PAN 00: 19 1AAA 0000 CFFF FF
+
+Network(s) found. Trying to join 1AAA | 0004A30001000000
+Join OK!
+Router Started! Enabling joins...
+My Network Address is 0x0009 now!
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A30000000004
+DstAddress: 0004A30004000007
+#JN:000207FF
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00111FF9
+ACLEntry: 08
+#SN:00020704
+MLME_COMM_STATUS_indication Result: 
+PANID: 0103
+SrcAddress: 0002
+DstAddress: 0007
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00195797
+ACLEntry: 08
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+Route Reply Failed: 02
+Route Reply Failed: 02
+#SN:00020704
+#SN:00020704
+Route Reply Failed: 02
+Route Reply Failed: 02
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+Route Reply Failed: 02
+#SN:00020704
+#SN:00020704
+#SN:00020704
+Route Reply Failed: 02
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+#SN:00020704
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0050EA2E
+ACLEntry: 08
+Route Reply Failed: 02
+Route Reply Failed: 02
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0060F613
+ACLEntry: 08
+Route Reply Failed: 02
+Route Reply Failed: 02
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0078D85C
+ACLEntry: 08
+Route Reply Failed: 02
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0081120D
+ACLEntry: 08
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0089A7EF
+ACLEntry: 08
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00918447
+ACLEntry: 08
+Route Reply Failed: 02
+Route Reply Failed: 02
+#SN:00020704
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00A9CD11
+ACLEntry: 08
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00B20787
+ACLEntry: 08
+Route Reply Failed: 02
+#SN:00020704
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00B7080A
+ACLEntry: 08
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00B9E859
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A30000000004
+DstAddress: 0004A30004000006
+#JN:035F06FF
+Route Reply Failed: 02
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0009
+DstAddress: 0006
+#SN:00020704
+Route Reply Failed: 02
+#SN:00020704
+Route Reply Failed: 02
+Route Reply Failed: 02
+#SN:00020704
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00D93456
+ACLEntry: 08
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00E1CC72
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00E1E50B
+ACLEntry: 08
+Route Reply Failed: 02
+Route Reply Failed: 02
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FE
+TimeStamp: 00F17D52
+ACLEntry: 08
+Route Reply Failed: 027709035F020A$
+
+Route Reply Failed: 02
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0101E7AE
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 01020166
+ACLEntry: 08
+Route Reply Failed: 0209035F020A$
+
+Route Reply Failed: 02
+Route Reply Failed: 02
+Route Reply Failed: 02
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 012A320E
+ACLEntry: 08
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0131B112
+ACLEntry: 08
+Route Reply Failed: 02
+Route Reply Failed: 02
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0141BF46
+ACLEntry: 08
+Route Reply Failed: 02
+Route Reply Failed: 02

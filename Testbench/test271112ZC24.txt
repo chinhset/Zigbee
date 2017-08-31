@@ -1,0 +1,141 @@
+Init UART2
+Init Hardware
+Init Zigbee Stack
+*************************************
+R&D Coordinator by WSAN-Lab411
+Transceiver-MRF24J40
+Trying to start network...
+PAN 1AAA started successfully.
+Joining permitted.
+Node 0001 With MAC Address 0004A300000000A0 just joined.
+Node 143E With MAC Address 0004A30002000001 just joined.
+02..Route Reply not Successful..
+Node 287B With MAC Address 0004A30000000004 just joined.
+Temperature (hex): 184B. Humidity (hex): 0798
+Voltage (hex): 03DA
+02..Route Reply not Successful..
+..Route Reply Successful...
+ Message sent successfully.
+..Route Reply Successful...
+..Route Reply Successful...
+..Route Reply Successful...
+Node 3CB8 With MAC Address 0004A30004000006 just joined.
+02..Route Reply not Successful..
+Node 50F5 With MAC Address 0004A30004000005 just joined.
+Temperature (hex): 184D. Humidity (hex): 079A
+Voltage (hex): 03DB
+ Message sent successfully.
+Temperature (hex): 1850. Humidity (hex): 0795
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 184F. Humidity (hex): 0796
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 1852. Humidity (hex): 079A
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 184B. Humidity (hex): 0788
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 184E. Humidity (hex): 077D
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 1847. Humidity (hex): 0779
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 1849. Humidity (hex): 0780
+Voltage (hex): 03DA
+ Message sent successfully.
+Node 287B With MAC Address 0004A30000000004 just joined.
+Temperature (hex): 184E. Humidity (hex): 0779
+Voltage (hex): 03DA
+02..Route Reply not Successful..
+ Message sent successfully.
+Temperature (hex): 1848. Humidity (hex): 0786
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 184B. Humidity (hex): 0777
+Voltage (hex): 03DA
+ Message sent successfully.
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Temperature (hex): 1849. Humidity (hex): 075C
+Voltage (hex): 03DA
+..Route Reply Successful...
+ Message sent successfully.
+..Route Reply Successful...
+..Route Reply Successful...
+..Route Reply Successful...
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Temperature (hex): 1846. Humidity (hex): 075E
+Voltage (hex): 03DA
+ Message sent successfully.
+Just send data to Router_EMB
+ Message sent successfully.
+Node 6532 With MAC Address 0004A300040000A1 just joined.
+Temperature (hex): 1843. Humidity (hex): 078A
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 1848. Humidity (hex): 0779
+Voltage (hex): 03DA
+ Message sent successfully.
+Temperature (hex): 1846. Humidity (hex): 077C
+Voltage (hex): 03DA
+ Message sent successfully.
+Just send data to Router_EMB
+ Message sent successfully.
+Temperature (hex): 1848. Humidity (hex): 0775
+Voltage (hex): 03DA
+ Message sent successfully.
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Temperature (hex): 1847. Humidity (hex): 077B
+Voltage (hex): 03DA
+02..Route Reply not Successful..
+..Route Reply Successful...
+ Message sent successfully.
+..Route Reply Successful...
+..Route Reply Successful...
+..Route Reply Successful...
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Temperature (hex): 1846. Humidity (hex): 0778
+Voltage (hex): 03DA
+Node 0000 With MAC Address 0000000000000000 just joined.
+..Route Reply Successful...
+ Message sent successfully.
+..Route Reply Successful...
+..Route Reply Successful...
+..Route Reply Successful...
+02..Route Reply not Successful..
+Node 0000 With MAC Address 0000000000000000 just joined.
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Temperature (hex): 1848. Humidity (hex): 077A
+Voltage (hex): 03DA
+Node 0000 With MAC Address 0000000000000000 just joined.
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Node 0000 With MAC Address 0000000000000000 just joined.
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Temperature (hex): 1847. Humidity (hex): 0773
+Voltage (hex): 03DA
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+02..Route Reply not Successful..
+Temperature (hex): 184D. Humidity (hex): 0781
+Voltage (hex): 03DA
+Node 0000 With MAC Address 0000000000000000 just joined.
+02..Route Reply not Successful..
+Node 0000 With MAC Address 0000000000000000 just joined.
+Temperature (hex): 184E. Humidity (hex): 076F
+Voltage (hex): 03DA

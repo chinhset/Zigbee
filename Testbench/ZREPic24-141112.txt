@@ -1,0 +1,622 @@
+
+Init UART2
+Init Hardware
+Zigbee Init
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ZigBee Router_EMB - R&D by WSAN-Lab411
+Transceiver-MRF24J40
+Trying to join network as a new device!
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 0F
+SuperframeSpec: CFFF
+LinkQuality: 1E
+TimeStamp: 00002BED
+ACLEntry: 08
+Scan Confirm Result(Active Scan): 
+PAN 00: 0F 1AAA 0000 CFFF 1E
+
+Network(s) found. Trying to join 1AAA | 0004A30001000000
+Status: C3. Could not join selected network. Cleaning up and retrying discovery!
+Trying to join network as a new device!
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 0F
+SuperframeSpec: CFFF
+LinkQuality: 20
+TimeStamp: 00014414
+ACLEntry: 08
+Scan Confirm Result(Active Scan): 
+PAN 00: 0F 1AAA 0000 CFFF 20
+
+Network(s) found. Trying to join 1AAA | 0004A30001000000
+Status: C3. Could not join selected network. Cleaning up and retrying discovery!
+Trying to join network as a new device!
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 0F
+SuperframeSpec: CFFF
+LinkQuality: 2D
+TimeStamp: 00025C90
+ACLEntry: 08
+Scan Confirm Result(Active Scan): 
+PAN 00: 0F 1AAA 0000 CFFF 2D
+
+Network(s) found. Trying to join 1AAA | 0004A30001000000
+Status: C3. Could not join selected network. Cleaning up and retrying discovery!
+Trying to join network as a new device!
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 0F
+SuperframeSpec: CFFF
+LinkQuality: 31
+TimeStamp: 000374E5
+ACLEntry: 08
+Scan Confirm Result(Active Scan): 
+PAN 00: 0F 1AAA 0000 CFFF 31
+
+Network(s) found. Trying to join 1AAA | 0004A30001000000
+Join OK!
+Router Started! Enabling joins...
+My Network Address is 0x0009 now!
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 0F
+SuperframeSpec: CFFF
+LinkQuality: 33
+TimeStamp: 00051CE9
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30000000004
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30002000001
+#JN:035F01
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000900B7
+ACLEntry: 08
+#JN:036003
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000DBC86
+ACLEntry: 08
+#DF:035F19E808E7DF
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00042726
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000443B8
+ACLEntry: 08
+#DF:03601A320887D2
+#DF:035F19E908E4DF
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000FC7CF
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000FF799
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00101032
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30000000004
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00028C7F
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30000000004
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000ACCB2
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000AE55F
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30000000004
+#JN:000304
+#JN:000304
+#JN:000304
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+#DF:035F19EA08E7DF
+Route Reply OK
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000E2BE4
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FE
+TimeStamp: 000E447C
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 001298B7
+ACLEntry: 08
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+
+#DF:03601A240896D3
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+#DF:035F19E808E4E0
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0000E229
+ACLEntry: 08
+#DF:000319E808C9DF
+#DF:03601A1C089ED3
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0009
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: D4
+TimeStamp: 0009CAAB
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0009E75D
+ACLEntry: 08
+#DF:000319E608CADF
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0009
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: DD
+TimeStamp: 000B6324
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000B7C9D
+ACLEntry: 08
+#JN:000302
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0360
+DstAddress: 0202
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+0009|0000000000000000|RTR|UNKWN 
+06BC|0004A30203020202|RTR|CHILD 
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0002F845
+ACLEntry: 08
+#DF:035F19E608E6E0
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+#DF:03601A1408A8D3
+#DF:000319E908C8E0
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000BEA17
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0009
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000C02C4
+ACLEntry: 08
+#JN:036102
+#DF:035F19E508E4DF
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+0009|0000000000000000|RTR|UNKWN 
+06BC|0004A30203020202|RTR|CHILD 
+
+#DF:03601A0E08ADD3
+#DF:000319E908C6E0
+#DF:035F19EA08E7E0
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0009
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: E9
+TimeStamp: 000E0906
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000E2280
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000E3AC5
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30203020202
+#JN:06BC02
+#JN:06BC02
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+0009|0000000000000000|RTR|UNKWN 
+06BC|0004A30203020202|RTR|CHILD 
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00072643
+ACLEntry: 08
+#DF:03601A0708B5D3
+#DF:000319E808C4E0
+#DF:035F19E608E7E1
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0009
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 001027A9
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0003
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: F8
+TimeStamp: 0010418C
+ACLEntry: 08
+#JN:000302
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0003
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FE
+TimeStamp: 0012530A
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0003
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00126D0B
+ACLEntry: 08
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+0009|0000000000000000|RTR|UNKWN 
+06BC|0004A30203020202|RTR|CHILD 
+0003|0000000000000000|RTR|UNKWN 
+
+#JN:000304
+#DF:035F19E608EAE0
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0009
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 001248F2
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0003
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: EA
+TimeStamp: 001262D6
+ACLEntry: 08
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+0009|0000000000000000|RTR|UNKWN 
+06BC|0004A30203020202|RTR|CHILD 
+0003|0000000000000000|RTR|UNKWN 
+
+#JN:000902
+#DF:03601A0108BFD4
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+#DF:000319E908C8E0
+Route Reply OK
+Route Reply OK
+Route Reply OK
+#DF:035F19E808EAE0
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Short MAC Type Rntlship 
+0000|0004A30001000000|CRD|PARENT
+0002|0004A30000000004|RTR|CHILD 
+035F|0004A30002000001|RTR|CHILD 
+0360|0000000000000000|RTR|UNKWN 
+0009|0000000000000000|RTR|UNKWN 
+06BC|0004A30203020202|RTR|CHILD 
+0003|0000000000000000|RTR|UNKWN 
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0003
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00015505
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0360
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: E8
+TimeStamp: 00016F08
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30203020202
+#JN:06BC02
+#JN:06BC02
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+#DF:036019FF08C1D4
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Route Reply OK
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 06BC
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000D67B8
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 035F
+Logical Channel: 0F
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 000DA77B
+ACLEntry: 08
+#DF:035F19E308EAE1

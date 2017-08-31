@@ -1,0 +1,318 @@
+
+Console Init
+Harware Init
+Zigbee Init
+*************************************
+Router - R&D by WSAN-Lab411
+Transceiver-MRF24J40
+
+
+Trying to join network as a new device!
+Error finding network: EA. Trying again!
+Trying to join network as a new device!
+Error finding network: EA. Trying again!
+Trying to join network as a new device!
+Error finding network: EA. Trying again!
+Trying to join network as a new device!
+Error finding network: EA. Trying again!
+Trying to join network as a new device!
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 19
+SuperframeSpec: CFFF
+LinkQuality: FF
+TimeStamp: 00049C89
+ACLEntry: 08
+Scan Confirm Result(Active Scan): 
+PAN 00: 19 1AAA 0000 CFFF FF
+
+Network(s) found. Trying to join 1AAA | 0004A30001000000
+Join OK!
+Router Started! Enabling joins...
+My Network Address is 0x0009 now!
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A30000000004
+DstAddress: 0004A30004000006
+#JN:000206FF
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0022C516
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 002AFC82
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00333319
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 003B6AD5
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00440341
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 004BE00E
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00541937
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0064E66D
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 006CBF83
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0074F8F6
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 007D90E3
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00856BD4
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 008DA581
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0095DC94
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 009E13BF
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00A64AA6
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00AE8282
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00B7187A
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00BF4EED
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00C786CD
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00CFBE71
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00D797E2
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00E802FD
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00F03AC6
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 00F8D0DB
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0100A8EA
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0108E22F
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 011235EA
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0119B2C8
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0121E9AE
+ACLEntry: 08
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0002
+Logical Channel: 19
+SuperframeSpec: 8FFF
+LinkQuality: FF
+TimeStamp: 0129C3F9
+ACLEntry: 08

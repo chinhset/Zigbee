@@ -1,0 +1,68 @@
+
+Init UART2
+Init Hardware
+Init Zigbee Stack
+*************************************
+R&D Coordinator by WSAN-Lab411
+Transceiver-MRF24J40
+Trying to start network...
+PAN 1AAA started successfully.
+Joining permitted.
+
+Voltage (hex): 0426
+Node 0001 With MAC Address 0004A30000000004 just joined.
+
+Just send data to Router_EMB
+Just send data to Router_EMBError E9 sending message.
+Error 01 sending message.
+
+Temperature (hex): 1ACD
+Humidity (hex): 0824
+Voltage (hex): 042402..Route Reply not Successful..
+
+Temperature (hex): 1AC5
+Humidity (hex): 0854
+Voltage (hex): 0423
+Temperature (hex): 1AC6
+Humidity (hex): 0892
+Voltage (hex): 0423
+Temperature (hex): 1ACA
+Humidity (hex): 084C
+Voltage (hex): 0423
+Temperature (hex): 1AC4
+Humidity (hex): 082E
+Voltage (hex): 0422
+Temperature (hex): 1AC2
+Humidity (hex): 0834
+Voltage (hex): 0422
+Temperature (hex): 1AC2
+Humidity (hex): 0839
+Voltage (hex): 0422
+Temperature (hex): 1AC1
+Humidity (hex): 0832
+Voltage (hex): 0422
+Temperature (hex): 1AC5
+Humidity (hex): 085A
+Voltage (hex): 0422
+Node 0001 With MAC Address 0004A30000000004 just joined.
+
+Temperature (hex): 1ACC
+Humidity (hex): 0853
+Voltage (hex): 0423
+Temperature (hex): 1AD3
+Humidity (hex): 0826
+Voltage (hex): 0422
+Temperature (hex): 1AD6
+Humidity (hex): 0824
+Voltage (hex): 0422
+Temperature (hex): 1AD9
+Humidity (hex): 08B0
+Voltage (hex): 0422
+Temperature (hex): 1ADA
+Humidity (hex): 086F
+Voltage (hex): 0422
+Got message...02..Route Reply not Successful..
+
+Temperature (hex): 1ADA
+Humidity (hex): 088E
+Voltage (hex): 0423

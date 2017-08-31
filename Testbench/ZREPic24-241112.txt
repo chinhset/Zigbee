@@ -1,0 +1,105 @@
+Init UART2
+Init Hardware
+Zigbee Init
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ZigBee Router_EMB - R&D by WSAN-Lab411
+Transceiver-MRF24J40
+Trying to join network as a new device!
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 19
+SuperframeSpec: CFFF
+LinkQuality: FF
+TimeStamp: 0000A0BF
+ACLEntry: 08
+Scan Confirm Result(Active Scan): 
+PAN 00: 19 1AAA 0000 CFFF FF
+Network(s) found. Trying to join 1AAA | 0004A30001000000
+Join OK!
+Router Started! Enabling joins...
+Old Network Address is: 0001. Old Network Address is:0001. New Network Address is 0x0009
+#RF:0000194B070903D2
+
+Beacon Notify Indication Result:
+CoordAddrMode: 02
+CoordPANId: 1AAA
+CoordAddress: 0000
+Logical Channel: 19
+SuperframeSpec: CFFF
+LinkQuality: FF
+TimeStamp: 00113F11
+ACLEntry: 08
+MLME_COMM_STATUS_indication Result: 
+PANID: 1AAA
+SrcAddress: 0004A300040000A0
+DstAddress: 0004A30002000001#JN:000201
+#RF:0000194A070A03D2
+#RF:0002194E06FC03C3
+000200
+Command: 000200
+Sending message OK!
+#RF:0002194F06F803C3
+000200
+Command: 000200
+Sending message OK!
+#RF:0002194F06F703C3
+#RF:0000194A070803D2
+#RF:0002195106F803C3
+#RF:00001948070503D2
+#RF:0002195106F703C3
+000200
+Command: 000200
+Sending message OK!
+#RF:0002195106F603C3
+0000E0
+Command: 0000E0
+Sending message OK!
+#OK:E0
+000000
+Command: 000000
+Sending message OK!
+#RF:00001948070903D2
+#RF:00001946070903D2
+000000
+Command: 000000
+Sending message OK!
+#RF:00001946070903D2
+000000
+Command: 000000
+Sending message OK!
+#RF:00001948070803D2
+#RF:0002195206F603C3
+000000
+Command: 000000
+Sending message OK!
+#RF:00001947070903D2
+0002E9
+Command: 0002E9
+Sending message OK!
+#OK:E9
+0002E9
+Command: 0002E9
+Sending message OK!
+#OK:E9
+0000E0
+Command: 0000E0
+Sending message OK!
+#OK:E0
+000200
+Command: 000200
+Sending message OK!
+#RF:0002195506F603C3
+#RF:00001944070B03D2
+#RF:0002195406F803C2
+000200
+Command: 000200
+Sending message OK!
+#RF:0002195306F603C2
+#RF:0000194A070603D2
+#RF:0002195606F803C2
+#RF:00001948070603D2
+#RF:0002195C06FE03C2
+#RF:0000194A070603D2
